@@ -1,0 +1,3 @@
+[1/3] Building CXX object CMakeFiles/RecorderExample.dir/src/main/cpp/RecorderExample.cpp.o
+[2/3] Building CXX object CMakeFiles/RecorderExample.dir/C_/OrbitalNUS/SuperpoweredSDK/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o
+[3/3] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86_64\libRecorderExample.so

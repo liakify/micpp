@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\liak\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "RecorderExample-Debug-x86_64": {
+      "artifactName": "RecorderExample",
+      "buildCommand": "C:\\Users\\liak\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target RecorderExample",
+      "abi": "x86_64",
+      "output": "C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libRecorderExample.so"
+    }
+  }
+}

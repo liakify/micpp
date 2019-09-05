@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recordTab"
+        android:enabled="true"
+        android:icon="@drawable/ic_record_48dp"
+        android:title="Record" />
+    <item
+        android:id="@+id/editTab"
+        android:enabled="true"
+        android:icon="@drawable/ic_equalizer_24dp"
+        android:title="Edit" />
+    <item
+        android:id="@+id/libraryTab"
+        android:enabled="true"
+        android:icon="@drawable/ic_folder_24dp"
+        android:title="Library" />
+</menu>

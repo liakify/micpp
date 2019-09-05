@@ -1,0 +1,4 @@
+#Fri Jul 26 19:39:52 SGT 2019
+base.0=C\:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

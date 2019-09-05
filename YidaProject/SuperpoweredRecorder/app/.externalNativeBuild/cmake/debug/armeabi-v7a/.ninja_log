@@ -1,0 +1,4 @@
+# ninja log v5
+2	697	0	CMakeFiles/RecorderExample.dir/C_/OrbitalNUS/SuperpoweredSDK/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	ce2c28755bfb461b
+26	1397	0	CMakeFiles/RecorderExample.dir/src/main/cpp/RecorderExample.cpp.o	aa38ef361dd8b715
+1398	2179	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libRecorderExample.so	8464ebeb6eac9128

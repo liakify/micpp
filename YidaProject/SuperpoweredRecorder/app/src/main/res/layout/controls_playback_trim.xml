@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform"
+            android:text="Name: "/>
+        <EditText
+            android:id="@+id/currentFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/nameText"
+            android:inputType="text"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform" />
+        <Button
+            android:id="@+id/finishBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:autoSizeTextType="uniform"
+            android:text="Finish"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/trim"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25">
+        <TextView
+            android:id="@+id/trimText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            app:autoSizeTextType="uniform"
+            android:text="Trim: " />
+        <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+            android:id="@+id/trimBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/trimText"
+            app:left_thumb_image="@drawable/ic_range_seekbar_thumb"
+            app:right_thumb_image="@drawable/ic_range_seekbar_thumb"
+            app:left_thumb_image_pressed="@drawable/ic_range_seekbar_thumb_pressed"
+            app:right_thumb_image_pressed="@drawable/ic_range_seekbar_thumb_pressed"/>
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/playerTimeline"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <RelativeLayout
+        android:id="@+id/playerButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/trimBarMinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            app:autoSizeTextType="uniform"
+            android:text="0" />
+        <TextView
+            android:id="@+id/trimBarMaxText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            app:autoSizeTextType="uniform"
+            android:text="100" />
+
+        <ImageButton
+            android:id="@+id/playPauseBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_play_36dp" />
+        <ImageButton
+            android:id="@+id/stopBtn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/playPauseBtn"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_stop_disabled_36dp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="0:00:00.0"
+        app:autoSizeTextType="uniform"
+        android:textAlignment="center" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Semantive:waveform-android:v1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28f855f6175bdec6f0cf128ead043236/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28f855f6175bdec6f0cf128ead043236/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

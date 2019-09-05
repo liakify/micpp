@@ -1,0 +1,21 @@
+Executable : C:\Users\liak\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HC:\OrbitalNUS\SuperpoweredSDK\YidaProject\SuperpoweredRecorder\app
+-BC:\OrbitalNUS\SuperpoweredSDK\YidaProject\SuperpoweredRecorder\app\.externalNativeBuild\cmake\release\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\OrbitalNUS\SuperpoweredSDK\YidaProject\SuperpoweredRecorder\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=C:\Users\liak\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_C_FLAGS=-O3 -fsigned-char
+-DCMAKE_CXX_FLAGS=-fsigned-char -IC:\OrbitalNUS\SuperpoweredSDK\YidaProject\SuperpoweredRecorder\app\..\..\..\Superpowered
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\liak\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\liak\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_PLATFORM=android-16
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_STL=c++_static
+-DPATH_TO_SUPERPOWERED:STRING=C:\OrbitalNUS\SuperpoweredSDK\YidaProject\SuperpoweredRecorder\app\..\..\..\Superpowered
+jvmArgs : 
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/quickEdit"
+        android:enabled="true"
+        android:icon="@drawable/ic_quick_24dp"
+        android:title="Quick Edit"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/advancedEdit"
+        android:enabled="true"
+        android:icon="@drawable/ic_advanced_24dp"
+        android:title="Advanced Edit"
+        app:showAsAction="ifRoom" />
+</menu>

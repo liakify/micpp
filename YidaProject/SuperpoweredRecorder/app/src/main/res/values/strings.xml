@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mic++</string>
+    <string name="file_provider_authority" translatable="false">com.superpowered.recorder.fileprovider</string>
+</resources>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.derlio.waveform:library:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e608244f265302108b2eca83f5a4fc6e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e608244f265302108b2eca83f5a4fc6e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

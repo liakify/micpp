@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\liak\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "RecorderExample-Release-armeabi-v7a": {
+      "artifactName": "RecorderExample",
+      "buildCommand": "C:\\Users\\liak\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target RecorderExample",
+      "abi": "armeabi-v7a",
+      "output": "C:\\OrbitalNUS\\SuperpoweredSDK\\YidaProject\\SuperpoweredRecorder\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libRecorderExample.so"
+    }
+  }
+}

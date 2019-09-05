@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--placeholder for showing audio waveform -->
+    <com.superpowered.recorder.WaveformView
+        android:id="@+id/audioWaveform"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--ImageView
+        android:id="@+id/audioWaveform"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_waveform"
+        android:background="#DDDDDD"/-->
+</LinearLayout>
